@@ -1,13 +1,3 @@
-# Third-Party Notices
-
-This project includes or derives portions of its interactive 3D keyboard
-implementation from the open-source `Naresh-Khatri/3d-portfolio` project.
-Those portions remain available under the MIT License and retain the original
-author's copyright. The MIT License permits use, modification, and distribution
-provided its copyright and permission notice are preserved.
-
-Repository: https://github.com/Naresh-Khatri/3d-portfolio
-
 ## MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
