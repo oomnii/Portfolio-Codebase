@@ -78,7 +78,9 @@ export function Contact() {
       >
         <h2 className="heading-section mb-3">Contact</h2>
         <p className="text-body max-w-xl">
-          Open to AI Engineer / SDE internship roles — let&apos;s talk.
+          I am open to AI/ML, backend, and full-stack internship opportunities.
+          If you are building practical AI systems, developer tools, or reliable
+          web platforms, I would be glad to connect.
         </p>
       </motion.div>
 
@@ -142,7 +144,7 @@ export function Contact() {
               id="message"
               required
               rows={5}
-              placeholder="Your message"
+              placeholder="Tell me about the role, project, or idea."
               value={form.message}
               disabled={status === "loading"}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
@@ -177,7 +179,7 @@ export function Contact() {
                 className="flex items-center gap-2 text-sm text-success"
               >
                 <CheckCircle2 className="h-4 w-4 shrink-0" />
-                Message sent! Thanks — I&apos;ll get back to you soon.
+                Message sent - thank you. I will get back to you soon.
               </motion.p>
             )}
             {status === "error" && (
@@ -188,7 +190,8 @@ export function Contact() {
                 className="flex items-center gap-2 text-sm text-danger"
               >
                 <AlertCircle className="h-4 w-4 shrink-0" />
-                Something went wrong, please try again.
+                The message could not be sent. Please try again or contact me by
+                email.
               </motion.p>
             )}
           </AnimatePresence>

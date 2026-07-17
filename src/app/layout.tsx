@@ -20,21 +20,24 @@ const geistMono = localFont({
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://omseth.vercel.app";
 const siteDescription =
-  "Portfolio of Om Seth — AI Engineer & SDE. Building ML systems, full-stack apps, and competitive programming solutions.";
+  "Portfolio of Om Seth, an AI data training specialist and software developer building NLP systems, full-stack applications, and self-hosted infrastructure.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Om Seth — AI Engineer & SDE",
-    template: "%s — Om Seth",
+    default: "Om Seth - AI/ML & Full-Stack Developer",
+    template: "%s - Om Seth",
   },
   description: siteDescription,
   keywords: [
     "Om Seth",
-    "AI Engineer",
-    "SDE",
-    "Machine Learning",
+    "AI ML Developer",
     "Full-Stack Developer",
+    "Software Developer",
+    "Natural Language Processing",
+    "FastAPI",
+    "React",
+    "Machine Learning",
     "Competitive Programming",
     "Portfolio",
   ],
@@ -43,13 +46,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Om Seth — AI Engineer & SDE",
+    title: "Om Seth - AI/ML & Full-Stack Developer",
     description: siteDescription,
     siteName: "Om Seth Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Om Seth — AI Engineer & SDE",
+    title: "Om Seth - AI/ML & Full-Stack Developer",
     description: siteDescription,
   },
 };

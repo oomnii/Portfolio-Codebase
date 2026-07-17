@@ -46,7 +46,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.CPP,
     label: "C++",
     shortDescription:
-      "I use C++ for data structures, algorithms, and competitive programming.",
+      "I use C++ for data structures, algorithms, and competitive programming, which has helped me solve more than 750 problems.",
     objectNames: ["cplusplus", "cpp", "c++"],
   },
   [SkillNames.JAVASCRIPT]: {
@@ -54,7 +54,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.JAVASCRIPT,
     label: "JavaScript",
     shortDescription:
-      "I use JavaScript to build interactive interfaces and connect full-stack features.",
+      "I use JavaScript to build interactive dashboards and connect frontend behavior across my web projects.",
     objectNames: ["javascript", "js"],
   },
   [SkillNames.PYTHON]: {
@@ -62,7 +62,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.PYTHON,
     label: "Python",
     shortDescription:
-      "Python powers my ML experiments, backend services, and automation work.",
+      "Python is my main language for NLP, machine learning, APIs, simulations, and automation.",
     objectNames: ["python", "py"],
   },
   [SkillNames.REACT]: {
@@ -70,7 +70,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.REACT,
     label: "React",
     shortDescription:
-      "I built recruiter and candidate dashboards with reusable React components.",
+      "I built candidate, recruiter, and simulation dashboards as reusable React interfaces.",
     objectNames: ["react", "reactjs", "re"],
   },
   [SkillNames.NODEJS]: {
@@ -78,7 +78,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.NODEJS,
     label: "Node.js",
     shortDescription:
-      "I use Node.js for backend tooling, APIs, and JavaScript services.",
+      "I use Node.js for JavaScript-based backend development and API tooling.",
     objectNames: ["nodejs", "node", "njs", "nextjs", "next js"],
   },
   [SkillNames.EXPRESS]: {
@@ -86,7 +86,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.EXPRESS,
     label: "Express.js",
     shortDescription:
-      "I use Express.js to structure REST endpoints and lightweight backend services.",
+      "I am developing my Express.js skills through lightweight REST services and backend prototypes.",
     objectNames: ["expressjs", "express", "exp"],
   },
   [SkillNames.FASTAPI]: {
@@ -94,7 +94,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.FASTAPI,
     label: "FastAPI",
     shortDescription:
-      "I expose Python and ML workflows through typed, high-performance FastAPI services.",
+      "I used FastAPI to expose the Smart Hiring platform's NLP scoring and recruitment workflows.",
     objectNames: ["fastapi", "fast api", "fa"],
   },
   [SkillNames.FLASK]: {
@@ -102,7 +102,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.FLASK,
     label: "Flask",
     shortDescription:
-      "I use Flask for focused Python APIs and rapid backend prototypes.",
+      "Flask powers the backend of my WSN simulator and my self-hosted HomelabVault application.",
     objectNames: ["flask", "fl"],
   },
   [SkillNames.WEBSOCKET]: {
@@ -110,7 +110,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.WEBSOCKET,
     label: "WebSocket",
     shortDescription:
-      "I use WebSockets when an interface needs live, two-way updates.",
+      "I explore WebSockets for interfaces that need live, two-way updates.",
     objectNames: ["websocket", "websockets", "socketio", "socket.io", "ws"],
   },
   [SkillNames.MONGODB]: {
@@ -118,7 +118,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.MONGODB,
     label: "MongoDB",
     shortDescription:
-      "I use MongoDB for document-oriented application data and API prototypes.",
+      "I am learning MongoDB for flexible, document-oriented application data.",
     objectNames: ["mongodb", "mongo", "mdb"],
   },
   [SkillNames.POSTGRESQL]: {
@@ -126,7 +126,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.POSTGRESQL,
     label: "PostgreSQL",
     shortDescription:
-      "PostgreSQL stores structured data for my full-stack platforms and services.",
+      "I use PostgreSQL when a project needs structured relational data and dependable querying.",
     objectNames: ["postgresql", "postgres", "pg"],
   },
   [SkillNames.MYSQL]: {
@@ -134,7 +134,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.MYSQL,
     label: "MySQL",
     shortDescription:
-      "I use MySQL to design relational schemas and query application data.",
+      "I use MySQL to practice relational schema design and application-focused SQL.",
     objectNames: ["mysql", "my sql", "my"],
   },
   [SkillNames.SQLITE]: {
@@ -142,7 +142,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.SQLITE,
     label: "SQLite",
     shortDescription:
-      "SQLite gives my local tools and prototypes a simple embedded database.",
+      "I used SQLite as the embedded database for HomelabVault on Raspberry Pi.",
     objectNames: ["sqlite", "sqlLite", "sqllite", "sqlite3", "sqlt"],
   },
   [SkillNames.FIREBASE]: {
@@ -150,7 +150,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.FIREBASE,
     label: "Firebase",
     shortDescription:
-      "I use Firebase for quick authentication and realtime prototype data.",
+      "I use Firebase for rapid application prototypes and managed backend services.",
     objectNames: ["firebase", "fb"],
   },
   [SkillNames.DOCKER]: {
@@ -158,7 +158,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.DOCKER,
     label: "Docker",
     shortDescription:
-      "I containerize services so my projects run consistently across environments.",
+      "I containerized the Voronoi WSN Scheduler for reproducible, one-command deployment.",
     objectNames: ["docker", "dkr", "dk"],
   },
   [SkillNames.AWS]: {
@@ -166,7 +166,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.AWS,
     label: "AWS",
     shortDescription:
-      "I use AWS to deploy backend services and host application resources.",
+      "I use AWS while learning cloud deployment, hosting, and infrastructure workflows.",
     objectNames: ["aws", "amazonwebservices", "amazon web services"],
   },
   [SkillNames.LINUX]: {
@@ -174,7 +174,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.LINUX,
     label: "Linux",
     shortDescription:
-      "Linux is my daily development and self-hosting environment.",
+      "Linux powers my daily development environment and Raspberry Pi homelab deployments.",
     objectNames: ["linux", "lnx"],
   },
   [SkillNames.GIT]: {
@@ -182,7 +182,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.GIT,
     label: "Git",
     shortDescription:
-      "I use Git to manage every project from experiments to production builds.",
+      "I use Git to manage changes across experiments, coursework, and full-stack projects.",
     objectNames: ["git"],
   },
   [SkillNames.GITHUB]: {
@@ -190,7 +190,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.GITHUB,
     label: "GitHub",
     shortDescription:
-      "GitHub is where I publish projects, collaborate, and track my engineering work.",
+      "GitHub is where I publish my projects, document progress, and manage source code.",
     objectNames: ["github", "git hub", "gh"],
   },
   [SkillNames.PYTORCH]: {
@@ -198,7 +198,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.PYTORCH,
     label: "PyTorch",
     shortDescription:
-      "I use PyTorch to experiment with neural networks and deep-learning workflows.",
+      "I am developing hands-on PyTorch experience through deep-learning experiments.",
     objectNames: ["pytorch", "py torch", "pt"],
   },
   [SkillNames.SCIKIT_LEARN]: {
@@ -206,7 +206,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.SCIKIT_LEARN,
     label: "Scikit-learn",
     shortDescription:
-      "I build and evaluate classical machine-learning pipelines with Scikit-learn.",
+      "I used Scikit-learn to build semantic matching and candidate-ranking workflows for the Smart Hiring platform.",
     objectNames: ["scikitlearn", "scikit-learn", "sklearn", "skl"],
   },
   [SkillNames.HUGGING_FACE]: {
@@ -214,7 +214,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.HUGGING_FACE,
     label: "Hugging Face",
     shortDescription:
-      "I explore pretrained models and transformer workflows through Hugging Face.",
+      "I am exploring pretrained transformer models and practical NLP workflows with Hugging Face.",
     objectNames: ["huggingface", "hugging face", "hf"],
   },
   [SkillNames.LANGCHAIN]: {
@@ -222,7 +222,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.LANGCHAIN,
     label: "LangChain",
     shortDescription:
-      "I use LangChain to prototype tool-using and retrieval-based GenAI workflows.",
+      "I am learning LangChain for retrieval-based and tool-using generative AI prototypes.",
     objectNames: ["langchain", "lang chain", "lc"],
   },
   [SkillNames.OPENAI]: {
@@ -230,7 +230,7 @@ export const SKILLS: Record<SkillNames, Skill> = {
     name: SkillNames.OPENAI,
     label: "OpenAI API",
     shortDescription:
-      "I integrate OpenAI models into practical generative-AI features and experiments.",
+      "I use the OpenAI API to prototype generative AI features and model-assisted workflows.",
     objectNames: ["openai", "open ai", "openaiapi", "oai"],
   },
 };

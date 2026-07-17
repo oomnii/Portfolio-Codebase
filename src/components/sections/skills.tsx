@@ -5,37 +5,39 @@ import { Section } from "@/components/ui/section";
 
 const coreStack = [
   {
-    heading: "Languages & Frontend",
-    items: ["C++", "JavaScript", "Python", "React"],
+    heading: "Languages",
+    items: ["Python", "C++", "JavaScript", "SQL"],
   },
   {
-    heading: "AI / ML & GenAI",
+    heading: "AI / ML",
     items: [
-      "PyTorch",
       "Scikit-learn",
-      "Hugging Face",
-      "LangChain",
+      "TensorFlow",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
       "OpenAI API",
     ],
   },
   {
-    heading: "Backend & DB",
+    heading: "Application Development",
+    items: ["React.js", "Node.js", "FastAPI", "Flask", "REST APIs", "HTML/CSS"],
+  },
+  {
+    heading: "Data & Infrastructure",
     items: [
-      "Node.js",
-      "Express.js",
-      "FastAPI",
-      "Flask",
-      "WebSocket",
-      "MongoDB",
       "PostgreSQL",
       "MySQL",
       "SQLite",
       "Firebase",
+      "Docker",
+      "AWS",
+      "Linux",
+      "Raspberry Pi",
+      "Git",
+      "GitHub",
+      "Postman",
     ],
-  },
-  {
-    heading: "DevOps & Infra",
-    items: ["Docker", "AWS", "Linux", "Git", "GitHub"],
   },
 ] as const;
 
@@ -64,7 +66,7 @@ export function Skills() {
         >
           <h2 className="heading-section mb-2">Skills</h2>
           <p className="pointer-events-none text-body text-muted-foreground">
-            hover the keys
+            Hover a key to see how I use it.
           </p>
         </motion.div>
 
@@ -75,7 +77,7 @@ export function Skills() {
           transition={{ duration: 0.7, delay: 0.05 }}
         >
           <h3 className="mb-5 font-mono text-sm font-semibold uppercase tracking-wider text-accent">
-            Core Stack
+            Working Toolkit
           </h3>
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">

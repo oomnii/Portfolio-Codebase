@@ -10,9 +10,9 @@ import { resumePath } from "@/config/site";
 const name = "Om Seth";
 
 const stats = [
-  { end: 1870, suffix: "", label: "LeetCode rating" },
+  { end: 1870, suffix: "", label: "LeetCode peak rating" },
   { end: 750, suffix: "+", label: "problems solved" },
-  { end: 1358, suffix: "", label: "Codeforces rating" },
+  { end: 1358, suffix: "", label: "Codeforces peak rating" },
 ] as const;
 
 const letterVariants: Variants = {
@@ -68,9 +68,10 @@ export function Hero() {
           transition={{ delay: 1.1, duration: 0.5 }}
           className="text-body mb-10 max-w-2xl break-words"
         >
-          Third-year ECE student building AI-driven full-stack systems — from
-          NLP resume scoring to self-hosted infra — while solving 750+
-          algorithmic problems along the way.
+          B.Tech ECE undergraduate at IIIT Surat building practical AI products
+          and self-hosted software. My work spans NLP scoring, backend APIs,
+          React dashboards, containerized simulations, and Linux deployments -
+          supported by 750+ algorithmic problems solved.
         </motion.p>
 
         <motion.div
@@ -101,7 +102,7 @@ export function Hero() {
           className="pointer-events-auto flex flex-wrap gap-4"
         >
           <a href="#projects" className="btn-primary">
-            View Projects
+            Explore My Work
           </a>
           <a href={resumePath} download className="btn-ghost gap-2">
             <Download className="h-4 w-4" aria-hidden="true" />

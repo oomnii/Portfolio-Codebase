@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 
 const roles = [
-  "ECE Student @ IIIT Surat",
   "AI Data Training Specialist @ XelronAI",
+  "AI/ML & Full-Stack Developer",
   "Competitive Programmer",
 ] as const;
 

@@ -21,13 +21,13 @@ type Project = {
 // Replace placeholder "#" links with real repo / live-demo URLs before deploy.
 const projects: Project[] = [
   {
-    title: "Smart Hiring and Resume Score Platform",
+    title: "Smart Hiring & Resume Scoring Platform",
     stack: ["Python", "FastAPI", "React.js", "NLP", "Scikit-learn"],
     categories: ["AI-ML", "Full-Stack"],
     bullets: [
-      "Architected an AI-powered recruitment platform with separate candidate and recruiter workflows, supporting resume upload, job matching, application tracking, and automated screening.",
-      "Developed an NLP-based resume scoring engine using semantic similarity, skill extraction, missing-skill detection, and candidate ranking against job descriptions.",
-      "Built recruiter dashboards with candidate search, GitHub profile analysis, fraud-signal detection, and interview-readiness evaluation, reducing manual screening effort by an estimated 60%.",
+      "Built an end-to-end recruitment platform with separate candidate and recruiter workflows for resume upload, job matching, application tracking, and automated screening.",
+      "Designed an NLP scoring pipeline for semantic job matching, skill extraction, missing-skill analysis, and candidate ranking.",
+      "Created recruiter tools for candidate search, GitHub profile analysis, fraud signals, and interview readiness, reducing estimated manual screening effort by 60%.",
     ],
     github: "https://github.com/oomnii/Smart-Hiring-and-Resume-Scorer",
   },
@@ -36,22 +36,22 @@ const projects: Project[] = [
     stack: ["Python", "Flask", "React.js", "Docker", "Machine Learning"],
     categories: ["Full-Stack", "Systems-DevOps", "AI-ML"],
     bullets: [
-      "Built a full-stack Wireless Sensor Network simulator implementing Voronoi-based node scheduling with backup-node logic, improving network energy efficiency and operational lifetime.",
-      "Implemented fault-tolerance and recovery simulation modules with interactive dashboards for comparative performance analysis under cascading node failures.",
-      "Containerized the platform using Docker for one-command reproducible deployment.",
+      "Developed a full-stack wireless-sensor-network simulator using Voronoi-based node scheduling and backup-node selection to study energy efficiency and network lifetime.",
+      "Added fault injection, cascading-failure recovery, and interactive dashboards for comparing scheduling behavior under changing conditions.",
+      "Containerized the complete application with Docker for reproducible, one-command deployment.",
     ],
     github:
       "https://github.com/oomnii/Energy-Efficient-Node-Scheduling-with-AI-Driven-Optimization",
     demo: "https://voronoi-wsn-scheduler.onrender.com/",
   },
   {
-    title: "HomelabVault – SecureManager",
+    title: "HomelabVault - SecureManager",
     stack: ["Flask", "SQLite", "SMTP", "Raspberry Pi", "Linux"],
     categories: ["Systems-DevOps", "Full-Stack"],
     bullets: [
-      "Engineered a self-hosted password manager using Flask, SQLite, and HTML/CSS, enabling encrypted storage of credentials, secure IDs, and private notes.",
-      "Implemented Multi-Factor Authentication (MFA) via email-based OTP using SMTP and Gmail App Passwords, strengthening login security against credential-based attacks.",
-      "Designed a responsive vault dashboard with secure backup/export and IST-timestamped audit logs, deployed on a Raspberry Pi (Linux) for self-hosted local-network access.",
+      "Built a self-hosted password manager for encrypted credentials, secure IDs, and private notes using Flask and SQLite.",
+      "Added email-based one-time-password authentication with SMTP, along with secure backup/export and timestamped audit logs.",
+      "Deployed the application on a Raspberry Pi running Linux for private local-network access and hands-on infrastructure management.",
     ],
     github: "https://github.com/oomnii/Homelab-Vault-Secure-Manager",
   },

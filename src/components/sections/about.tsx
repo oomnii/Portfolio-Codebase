@@ -7,15 +7,15 @@ import { cn } from "@/lib/utils";
 
 const education = [
   {
-    school: "IIIT Surat",
-    detail: "B.Tech ECE",
-    period: "2023–2027",
+    school: "Indian Institute of Information Technology, Surat",
+    detail: "B.Tech in Electronics and Communication Engineering",
+    period: "2023-2027",
     score: "CGPA 8.01",
   },
   {
-    school: "Kendriya Vidyalaya ITBP, Karera, MP",
-    detail: "CBSE Class XII (89.4%) & Class X (94.6%)",
-    period: "2019–2022",
+    school: "Kendriya Vidyalaya ITBP, Karera, Madhya Pradesh",
+    detail: "CBSE Class XII: 89.4% | Class X: 94.6%",
+    period: "2019-2022",
     score: null,
   },
 ] as const;
@@ -55,17 +55,22 @@ export function About() {
       <FadeIn delay={0.1}>
         <div className="mb-12 max-w-3xl space-y-4">
           <p className="text-body">
-            I&apos;m a third-year ECE student at IIIT Surat (CGPA 8.01,
-            2023–2027), currently working remotely as an AI Data Training
-            Specialist at XelronAI since March 2026. I contribute to LLM
-            fine-tuning data pipelines — structured prompt-response labeling,
-            factual verification, and rubric-based quality evaluation across
-            multi-domain datasets. I collaborate with ML engineers to refine
-            evaluation guidelines and improve training data consistency.
+            I am an Electronics and Communication Engineering undergraduate at
+            IIIT Surat, graduating in 2027. Since March 2026, I have worked
+            remotely as an AI Data Training Specialist at XelronAI, contributing
+            to multi-domain data pipelines for large language model training.
+            My work includes prompt-response evaluation, factual verification,
+            rubric-based quality review, and improving evaluation guidelines
+            with engineers and reviewers.
           </p>
           <p className="text-body">
-            Outside of class, I spend time on homelab and self-hosted systems
-            projects, and stay sharp through competitive programming.
+            I enjoy turning technical ideas into complete, usable systems. I
+            have built an NLP-powered hiring platform, a fault-tolerant
+            wireless-sensor-network simulator, and a self-hosted security vault
+            deployed on Raspberry Pi. These projects let me work across model
+            logic, APIs, databases, frontend dashboards, containers, and Linux
+            infrastructure, while competitive programming continues to
+            strengthen how I approach performance and edge cases.
           </p>
         </div>
       </FadeIn>

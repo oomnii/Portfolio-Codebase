@@ -1,6 +1,6 @@
 # Om Seth — Portfolio
 
-A dark-first, animated personal portfolio built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**, featuring an interactive **3D Spline keyboard** that reacts to scroll, hover, and key presses.
+A responsive personal portfolio for Om Seth, an AI data training specialist and software developer building NLP systems, full-stack applications, and self-hosted infrastructure. The site features an interactive 24-key Spline keyboard, project filtering, responsive layouts, theme support, and accessible motion-based interactions.
 
 ## Tech Stack
 

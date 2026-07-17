@@ -20,12 +20,12 @@ const experiences: Experience[] = [
     company: "XelronAI",
     role: "AI Data Training Specialist",
     location: "Remote",
-    period: "March 2026 – Present",
+    period: "March 2026 - Present",
     current: true,
     bullets: [
-      "Contributed to large-scale AI data training and annotation pipelines used for fine-tuning Large Language Models (LLMs), enhancing model accuracy and reasoning capabilities.",
-      "Performed structured prompt-response labeling, factual verification, and rubric-based quality evaluations across multi-domain datasets.",
-      "Collaborated with ML engineers and reviewers to refine evaluation guidelines, improving consistency, reliability, and overall training data quality.",
+      "Contribute to large-scale, multi-domain data pipelines used to train and evaluate large language models.",
+      "Review prompt-response pairs for factual accuracy, instruction adherence, reasoning quality, and rubric compliance.",
+      "Collaborate with ML engineers and reviewers to clarify evaluation guidelines and improve consistency across training datasets.",
     ],
   },
 ];

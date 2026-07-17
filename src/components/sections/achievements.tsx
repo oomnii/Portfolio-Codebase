@@ -97,7 +97,8 @@ export function Achievements() {
             <Stat end={140} suffix="+" caption="concurrent students" />
           </div>
           <p className="mt-4 text-body text-sm">
-            Self-hosted with zero downtime and real-time interaction.
+            Designed and self-hosted a real-time quiz platform that supported
+            140+ concurrent students with zero downtime.
           </p>
         </motion.div>
       </div>

@@ -40,7 +40,8 @@ export function Footer() {
         </p>
 
         <p className="font-mono text-xs text-muted-foreground">
-          Built with Next.js, Tailwind, GSAP
+          Designed and built with Next.js, TypeScript, Tailwind CSS, GSAP, and
+          Spline.
         </p>
       </div>
     </footer>
