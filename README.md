@@ -2,6 +2,10 @@
 
 A responsive personal portfolio for Om Seth, an AI data training specialist and software developer building NLP systems, full-stack applications, and self-hosted infrastructure. The site features an interactive 24-key Spline keyboard, project filtering, responsive layouts, theme support, and accessible motion-based interactions.
 
+## Live Portfolio
+
+[![View Live Portfolio](https://img.shields.io/badge/View_Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://om-seth-portfolio.vercel.app)
+
 ## Tech Stack
 
 | Area          | Choice                                             |
