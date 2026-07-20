@@ -18,8 +18,6 @@
   --button-primary-foreground: #1a1a2e;
   --danger: #c24152;
   --success: #2f7d5b;
-  --brand-leetcode: #c67500;
-  --brand-codeforces: #355872;
 }
 
 .dark {
@@ -38,8 +36,6 @@
   --button-primary-foreground: #0a0a0f;
   --danger: #f07178;
   --success: #73c69d;
-  --brand-leetcode: #ffa116;
-  --brand-codeforces: #5eb4e6;
 }
 
 @layer base {

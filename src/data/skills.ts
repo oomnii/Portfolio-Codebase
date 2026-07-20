@@ -248,6 +248,3 @@ Object.values(SKILLS).forEach((skill) => {
 
 export const getSkillByObjectName = (objectName: string) =>
   skillsByObjectName.get(normalizeObjectName(objectName));
-
-export const isObjectForSkill = (objectName: string, skill: Skill) =>
-  getSkillByObjectName(objectName)?.name === skill.name;

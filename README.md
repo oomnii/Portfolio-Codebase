@@ -85,6 +85,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Optimized for [Vercel](https://vercel.com). Deployment config (framework, security headers, asset caching) lives in `vercel.json`.
 
+> **Note:** `public/waving-avatar/*.webp` is served with an immutable, one-year `Cache-Control` header. If the avatar frames ever need a visual update, rename the files (or version the directory, e.g. `waving-avatar-v2/`) rather than overwriting the existing filenames — otherwise browsers/CDNs that already cached the old frames will keep showing them.
+
 ```bash
 npx vercel
 ```
