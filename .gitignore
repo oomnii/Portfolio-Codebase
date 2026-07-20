@@ -20,6 +20,8 @@
 .DS_Store
 Thumbs.db
 *.pem
+.avatar-extract/
+.waving-avatar-staging/
 
 # editor
 .idea/

@@ -1,12 +1,14 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { AlertCircle, CheckCircle2, Loader2, Mail, Phone } from "lucide-react";
+import { AlertCircle, CheckCircle2, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { CodeforcesIcon } from "@/components/icons/codeforces-icon";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { GitHubIcon } from "@/components/icons/github-icon";
 import { LeetCodeIcon } from "@/components/icons/leetcode-icon";
 import { LinkedInIcon } from "@/components/icons/linkedin-icon";
+import WavingAvatar from "@/components/WavingAvatar/WavingAvatar";
 import { Section } from "@/components/ui/section";
 import { contact, socialLinks } from "@/config/site";
 
@@ -84,14 +86,14 @@ export function Contact() {
         </p>
       </motion.div>
 
-      <div className="grid gap-10 md:grid-cols-2">
+      <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,auto)_minmax(0,1.1fr)]">
         <motion.form
           onSubmit={handleSubmit}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-          className="space-y-4"
+          className="space-y-4 lg:col-span-1"
           noValidate
         >
           <div>
@@ -164,7 +166,7 @@ export function Contact() {
               </>
             ) : (
               <>
-                <Mail className="h-4 w-4" />
+                <ThemeIcon name="send-message" className="h-4 w-4" />
                 Send Message
               </>
             )}
@@ -202,21 +204,21 @@ export function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.5, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="space-y-6"
+          className="space-y-6 lg:col-span-1"
         >
           <div className="space-y-3">
             <a
               href={`mailto:${contact.email}`}
               className="flex items-center gap-3 break-all font-mono text-sm text-muted-foreground transition-colors hover:text-accent-hover"
             >
-              <Mail className="h-4 w-4 shrink-0" />
+              <ThemeIcon name="mail" className="h-4 w-4 shrink-0" />
               {contact.email}
             </a>
             <a
               href={`tel:${contact.phone.replace(/[^+\d]/g, "")}`}
               className="flex items-center gap-3 font-mono text-sm text-muted-foreground transition-colors hover:text-accent-hover"
             >
-              <Phone className="h-4 w-4 shrink-0" />
+              <ThemeIcon name="phone" className="h-4 w-4 shrink-0" />
               {contact.phone}
             </a>
           </div>
@@ -234,6 +236,18 @@ export function Contact() {
                 <Icon className="h-4 w-4" />
               </a>
             ))}
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
+          className="flex min-w-0 justify-center md:col-span-2 lg:col-span-1 lg:-mt-28 lg:justify-center xl:-mt-36"
+        >
+          <div className="relative h-[460px] w-full max-w-[500px] bg-transparent sm:h-[520px] lg:h-[568px]">
+            <WavingAvatar />
           </div>
         </motion.div>
       </div>

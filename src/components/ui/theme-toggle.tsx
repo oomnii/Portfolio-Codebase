@@ -1,6 +1,6 @@
 "use client";
 
-import { Moon, Sun } from "lucide-react";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
@@ -36,7 +36,11 @@ export function ThemeToggle({ className }: { className?: string }) {
         className
       )}
     >
-      {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+      {isDark ? (
+        <ThemeIcon name="theme-sun" className="h-4 w-4" />
+      ) : (
+        <ThemeIcon name="theme-moon" className="h-4 w-4" />
+      )}
     </button>
   );
 }

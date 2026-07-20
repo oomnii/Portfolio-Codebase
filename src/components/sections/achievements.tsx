@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Radio } from "lucide-react";
 import { CodeforcesIcon } from "@/components/icons/codeforces-icon";
 import { LeetCodeIcon } from "@/components/icons/leetcode-icon";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { CountUp } from "@/components/ui/count-up";
 import { Section } from "@/components/ui/section";
 
@@ -49,7 +49,7 @@ export function Achievements() {
           className="rounded-xl border border-border bg-surface p-6"
         >
           <div className="mb-5 flex items-center gap-2">
-            <LeetCodeIcon className="h-5 w-5 text-brand-leetcode" />
+            <LeetCodeIcon className="h-5 w-5" />
             <span className="font-mono text-sm font-semibold text-foreground">
               LeetCode
             </span>
@@ -69,7 +69,7 @@ export function Achievements() {
           className="rounded-xl border border-border bg-surface p-6"
         >
           <div className="mb-5 flex items-center gap-2">
-            <CodeforcesIcon className="h-5 w-5 text-brand-codeforces" />
+            <CodeforcesIcon className="h-5 w-5" />
             <span className="font-mono text-sm font-semibold text-foreground">
               Codeforces
             </span>
@@ -88,7 +88,7 @@ export function Achievements() {
           className="rounded-xl border border-border bg-surface p-6"
         >
           <div className="mb-5 flex items-center gap-2">
-            <Radio className="h-5 w-5 text-accent" />
+            <ThemeIcon name="live-project" className="h-5 w-5" />
             <span className="font-mono text-sm font-semibold text-foreground">
               Live Quiz Platform
             </span>

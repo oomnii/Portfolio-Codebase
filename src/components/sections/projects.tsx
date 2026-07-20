@@ -1,9 +1,9 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
 import { forwardRef, useState } from "react";
 import { GitHubIcon } from "@/components/icons/github-icon";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { Section } from "@/components/ui/section";
 import { cn } from "@/lib/utils";
 
@@ -138,7 +138,7 @@ const ProjectCard = forwardRef<
               if (!hasValidDemo) e.preventDefault();
             }}
           >
-            <ExternalLink className="h-4 w-4" />
+            <ThemeIcon name="external-link" className="h-4 w-4" />
             Live Demo
           </a>
         )}

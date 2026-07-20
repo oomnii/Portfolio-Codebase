@@ -1,8 +1,8 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { Download, X } from "lucide-react";
 import { useEffect } from "react";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { navItems, resumePath } from "@/config/site";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { cn } from "@/lib/utils";
@@ -44,7 +44,7 @@ export function MobileNav({ open, activeHref, onClose }: MobileNavProps) {
                   onClick={onClose}
                   className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:border-accent-hover hover:text-accent-hover"
                 >
-                  <X className="h-5 w-5" />
+                  <ThemeIcon name="close" className="h-5 w-5" />
                 </button>
               </div>
             </div>
@@ -81,7 +81,7 @@ export function MobileNav({ open, activeHref, onClose }: MobileNavProps) {
               transition={{ delay: 0.45, duration: 0.3 }}
               className="btn-primary mb-8 w-full gap-2"
             >
-              <Download className="h-4 w-4" />
+              <ThemeIcon name="download-resume" className="h-4 w-4" />
               Download Resume
             </motion.a>
           </div>

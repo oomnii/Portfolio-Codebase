@@ -1,7 +1,7 @@
 "use client";
 
-import { Download, Menu } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { navItems, resumePath } from "@/config/site";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { MobileNav } from "@/components/layout/mobile-nav";
@@ -93,7 +93,7 @@ export function Header() {
               download
               className="btn-ghost hidden gap-2 px-4 py-2 text-sm lg:inline-flex"
             >
-              <Download className="h-4 w-4" />
+              <ThemeIcon name="download-resume" className="h-4 w-4" />
               Resume
             </a>
             <ThemeToggle className="hidden lg:inline-flex" />
@@ -104,7 +104,7 @@ export function Header() {
               onClick={() => setMobileOpen(true)}
               className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:border-accent-hover hover:text-accent-hover lg:hidden"
             >
-              <Menu className="h-5 w-5" />
+              <ThemeIcon name="menu" className="h-5 w-5" />
             </button>
           </div>
         </div>

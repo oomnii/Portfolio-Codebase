@@ -1,7 +1,8 @@
 "use client";
 
 import { motion, type Variants } from "framer-motion";
-import { ChevronDown, Download } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+import { ThemeIcon } from "@/components/icons/theme-icon";
 import { CountUp } from "@/components/ui/count-up";
 import { RoleTyper } from "@/components/ui/role-typer";
 import { Section } from "@/components/ui/section";
@@ -105,7 +106,7 @@ export function Hero() {
             Explore My Work
           </a>
           <a href={resumePath} download className="btn-ghost gap-2">
-            <Download className="h-4 w-4" aria-hidden="true" />
+            <ThemeIcon name="download-resume" className="h-4 w-4" />
             Download Resume
           </a>
         </motion.div>
